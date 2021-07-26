@@ -1,0 +1,40 @@
+<html>
+    <head>
+       <title>Project 98</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link href="style.css" rel="stylesheet">
+</head>
+ <body>
+    <div class="container">
+    <center>
+        <a href = "" id = "link" download="MyVoiceSelfie.png"></a>
+        <h1>Voice Selfie App 😀
+        <img id="Logo" src="logo.jpg">
+        </h1>
+        <hr>
+        <h4>Please press allow after the popup comes after you give the command</h4>
+        <div class="form-group">
+            <h3> Please say "Take my selfie" for youe selfie to be taken</h3>
+            <label>What your device heard : </label>
+            <textarea class="form-control" id="TextBox" readonly="true"></textarea>
+        </div>
+        <button class="btn btn-primary" onclick="Start()">Start</button>
+        <p>Press the Start button</p>
+
+        <label>What's going to come in the selfie : </label>
+        <div id="Camera"></div>
+        <br>
+
+        <label>The results : </label>
+        <div id="Result"></div>
+        
+    </center>
+    </div>
+
+    <script src="main.js"></script>
+    <script async src="https://drv.tw/inc/wd.js"></script>
+</body>
+</html>
